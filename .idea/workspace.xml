@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ec15740-2768-4151-8d30-24add27c2b8c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YIUoIhn3izyXLDci5BbDSeMAGR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../learn/miracle" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ZooApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Zoo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZooApplication" />
+      <module name="Zoo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt" />
+      <module name="Zoo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ZooApplication" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.tt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ec15740-2768-4151-8d30-24add27c2b8c" name="Default Changelist" comment="" />
+      <created>1582629775392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582629775392</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="730" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1582738030534">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="730" y="285" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582738030534" />
+    <state x="515" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582823405112">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="515" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582823405112" />
+    <state x="740" y="339" key="FileChooserDialogImpl" timestamp="1582630875580">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="740" y="339" key="FileChooserDialogImpl/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582630875580" />
+    <state width="1877" height="453" key="GridCell.Tab.0.bottom" timestamp="1582825037650">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="453" key="GridCell.Tab.0.bottom/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582825037650" />
+    <state width="1877" height="453" key="GridCell.Tab.0.center" timestamp="1582825037650">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="453" key="GridCell.Tab.0.center/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582825037650" />
+    <state width="1877" height="453" key="GridCell.Tab.0.left" timestamp="1582825037650">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="453" key="GridCell.Tab.0.left/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582825037650" />
+    <state width="1877" height="453" key="GridCell.Tab.0.right" timestamp="1582825037650">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="453" key="GridCell.Tab.0.right/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582825037650" />
+    <state width="1877" height="400" key="GridCell.Tab.1.bottom" timestamp="1582824575359">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="400" key="GridCell.Tab.1.bottom/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582824575359" />
+    <state width="1877" height="400" key="GridCell.Tab.1.center" timestamp="1582824575359">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="400" key="GridCell.Tab.1.center/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582824575359" />
+    <state width="1877" height="400" key="GridCell.Tab.1.left" timestamp="1582824575359">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="400" key="GridCell.Tab.1.left/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582824575359" />
+    <state width="1877" height="400" key="GridCell.Tab.1.right" timestamp="1582824575359">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="400" key="GridCell.Tab.1.right/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582824575359" />
+    <state x="512" y="0" width="1424" height="1158" key="dock-window-1" timestamp="1582630855927">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="512" y="0" width="1424" height="1158" key="dock-window-1/1920.0.1920.1170/0.0.1920.1170@1920.0.1920.1170" timestamp="1582630855927" />
+    <state x="690" y="340" key="extract.method.dialog" timestamp="1582655857803">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="690" y="340" key="extract.method.dialog/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582655857803" />
+    <state x="666" y="203" key="refactoring.ChangeSignatureDialog" timestamp="1582737088711">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="666" y="203" key="refactoring.ChangeSignatureDialog/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582737088711" />
+    <state x="616" y="273" key="run.anything.popup" timestamp="1582811276331">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="616" y="273" key="run.anything.popup/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582811276331" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582713526743">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1170/0.0.1920.1170@0.0.1920.1170" timestamp="1582713526743" />
+  </component>
+</project>

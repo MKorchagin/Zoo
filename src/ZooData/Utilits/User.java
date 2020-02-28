@@ -1,4 +1,4 @@
-package ZooData.Utils;
+package ZooData.Utilits;
 
 public class User {
     private String name;

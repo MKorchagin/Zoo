@@ -1,4 +1,4 @@
-package ZooData.Utils;
+package ZooData.Utilits;
 
 import java.util.Scanner;
 

@@ -1,11 +1,9 @@
 package ZooData;
 
-import ZooData.Animals.Bear;
-import ZooData.Animals.Cat;
-import ZooData.Animals.Dog;
-import ZooData.Animals.Giraffe;
-import ZooData.Utils.UIUtils;
-import ZooData.Utils.User;
+import ZooData.Animals.*;
+import ZooData.Utilits.*;
+
+
 
 public class Zoo {
     private User user;
@@ -27,7 +25,7 @@ public class Zoo {
             UIUtils.outputData("For interruption please use \"Q\" button");
 UIUtils.indent(); //empty line
 
-            //Identify Data.Utils.User
+//Identify User
 
             name = UIUtils.inputData("Hello! Please, enter your name: ");
             if (name.isEmpty()) {name = "Data.Utils.User"; user = new User(name);}
@@ -36,7 +34,7 @@ UIUtils.indent(); //empty line
 
 UIUtils.indent(); //empty line
 
-            //Identify Animal
+//Identify Animal
             showZoo();
             anim = UIUtils.inputData("Please, make your choice: ");
 /*Quite*/      if (anim.equalsIgnoreCase(QUITE)) {repeat = QUITE; setQuite(); return;}
@@ -50,17 +48,17 @@ UIUtils.indent(); //empty line
             }
 
             switch (anim.toUpperCase()) {
-                case "C": anim = "animal.Cat";     break;
-                case "D": anim = "animal.Dog";     break;
-                case "B": anim = "animal.Bear";    break;
-                case "G": anim = "animal.Giraffe"; break;
+                case "C": anim = "Cat";     break;
+                case "D": anim = "Dog";     break;
+                case "B": anim = "Bear";    break;
+                case "G": anim = "Giraffe"; break;
             }
 
             user = new User(name, anim);
 
-            UIUtils.outputData("\n"+"Dear " + user.getName() + ", your animal is " + user.getAnimal());
+            UIUtils.outputData("\n"+"Dear " + user.getName() + ", your animal is " + user.getAnimal () );
 
-            //Actions with the pets
+//Actions with the pets
             do {
                 petsAction();
                 action = UIUtils.inputData("Please, make yor choice: ");
@@ -73,34 +71,56 @@ UIUtils.indent(); //empty line
 /*Quite*/             if (action.equalsIgnoreCase(QUITE)) {repeat = QUITE; setQuite(); return;}
                 }
 
-                UIUtils.indent(); //empty line
+UIUtils.indent(); //empty line
 
-                if (action.equalsIgnoreCase("S")) { //pet with the animal
+//pet (stroke) the anim
+                if (action.equalsIgnoreCase("S")) { //pet (stroke) the animal
 
                     digit = (int) (Math.random() * 2);
 
                     switch (anim) {
-                        case "animal.Cat": cat = new Cat(digit, action); break;
-                        case "animal.Dog": dog = new Dog(digit, action); break;
-				        case "animal.Bear": bear = new Bear(digit, action); break;
-				        case "animal.Giraffe": giraffe = new Giraffe(digit, action); break;
+                        case "Cat": cat = new Cat(digit, action); break;
+                        case "Dog": dog = new Dog(digit, action); break;
+				        case "Bear": bear = new Bear(digit, action); break;
+				        case "Giraffe": giraffe = new Giraffe(digit, action); break;
                         default: UIUtils.outputData("Hm... something goes strange while you've tried to pet your animal... "); break;
                     }
 
-                } else if (action.equalsIgnoreCase("F")) {
-                    UIUtils.outputData("feed in process");
+//feed the animal
+                } else if (action.equalsIgnoreCase("F")) { //feed the animal
+
+                    digit = (int) (Math.random() * 2);
+
+                    switch (anim) {
+                        case "Cat": cat = new Cat(digit, action, action); break;
+                        case "Dog": dog = new Dog(digit, action, action); break;
+                        case "Bear": bear = new Bear(digit, action, action); break;
+                        case "Giraffe": giraffe = new Giraffe(digit, action, action); break;
+                        default: UIUtils.outputData("Hm... something goes strange while you've tried to feed your animal... "); break;
+                    }
+
+//play with the animal
                 } else if (action.equalsIgnoreCase("p")) {
-                    UIUtils.outputData("the pet is playing with you");
+
+                    digit = (int) (Math.random() * 3);
+
+                    switch (anim) {
+                        case "Cat": cat = new Cat(digit, action, action, action); break;
+                        case "Dog": dog = new Dog(digit, action, action, action); break;
+                        case "Bear": bear = new Bear(digit, action, action, action); break;
+                        case "Giraffe": giraffe = new Giraffe(digit, action, action, action); break;
+                        default: UIUtils.outputData("Hm... something goes strange while you've tried to play with your animal... "); break;
+                    }
+
                 } else {
                     UIUtils.outputData("how do you get this exception? O_o It seems to be bug :(");
                 }
 
-                UIUtils.indent(); //empty line
+UIUtils.indent(); //empty line
 
                 actionRepeat = UIUtils.inputData("Do you want to try another action? Y/N: ");
 /*Quite*/             if (actionRepeat.equalsIgnoreCase(QUITE)) {repeat = QUITE; setQuite(); return;}
             } while (actionRepeat.equalsIgnoreCase("Y"));
-
 
             setQuite();
 
@@ -109,14 +129,14 @@ UIUtils.indent(); //empty line
 
         private void showZoo () {
             UIUtils.outputData("OK, " + user.getName() + " now choose your animal.\n" +
-                    "     For animal.Cat, please press \"C\" ;\n" +
-                    "     For animal.Dog, please press \"D\" ;\n" +
-                    "     For animal.Bear, please press \"B\" ;\n" +
-                    "     For animal.Giraffe, please press \"G\".");
+                    "     For Cat, please press \"C\" ;\n" +
+                    "     For Dog, please press \"D\" ;\n" +
+                    "     For Bear, please press \"B\" ;\n" +
+                    "     For Giraffe, please press \"G\".");
             UIUtils.indent(); //empty line
         }
         private void petsAction () {
-            UIUtils.outputData("\n"+"So, what do you want to do do with your " + user.getAnimal() + "\n" +
+            UIUtils.outputData("\n"+"So, what do you want to do with your " + user.getAnimal() + "\n" +
                     "     If you want to pet (stroke) your " + user.getAnimal() + ", please press \"S\" ;\n" +
                     "     If you want to feet your " + user.getAnimal() + ", please press \"F\" ;\n" +
                     "     If you want to play your " + user.getAnimal() + ", please press \"P\" ;\n");
